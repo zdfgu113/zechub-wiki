@@ -592,6 +592,19 @@ code::-webkit-scrollbar-track {
   color: var(--clr-muted);
 }
 
+.wl-wallet-group + .wl-wallet-group {
+  margin-top: 40px;
+}
+
+.wl-group-title {
+  font-family: "Syne", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--clr-text);
+  margin: 0 0 16px;
+}
+
 .wl-active-count {
   display: inline-flex;
   align-items: center;
